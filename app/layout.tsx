@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Sidebar from "../components/Sidebar";
-import Navbar from "../components/NavBar";
+// import Navbar from "../components/NavBar";
 
 export const metadata: Metadata = {
     title: "Kanishk Agarwal",
@@ -21,7 +21,7 @@ export default function RootLayout({
                         <Sidebar />
                     </aside>
                     <div className="flex-1">
-                        <Navbar />
+                        {/* <Navbar /> */}
                         <main className="p-6">{children}</main>
                     </div>
                 </div>
