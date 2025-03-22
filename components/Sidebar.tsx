@@ -8,8 +8,8 @@ import {
     HiOutlineLocationMarker,
 } from "react-icons/hi";
 
-import avatar from "../public/Kanishk_avatar.png"; // Profile image
-import modalAvatar from "../public/Photo_Kanishk.png"; // New modal image
+import avatar from "../public/Kanishk_avatar.png";
+import modalAvatar from "../public/Photo_Kanishk.png";
 
 export default function Sidebar() {
     const [isModalOpen, setIsModalOpen] = useState(false);
