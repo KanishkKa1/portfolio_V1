@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+:root {
+    --main-bg: #121212;
+    --sidebar-bg: #1e1e1f;
+    --modal-bg: #363637;
+    --font-raleway: "Raleway", sans-serif;
+}
+
+.sidebar {
+    background-color: var(--sidebar-bg);
+    font-family: var(--font-raleway);
+}
+
+.modal {
+    background-color: var(--modal-bg);
+}
