@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import {
+    HiOutlineOfficeBuilding,
     HiOutlineMail,
     HiOutlinePhone,
     HiOutlineLocationMarker,
@@ -34,9 +35,6 @@ export default function Sidebar() {
                 <h2 className="text-[32px] font-bold text-center">
                     Kanishk Agarwal
                 </h2>
-                <p className="text-sm text-yellow-600  hover:text-yellow-400">
-                    Harman International
-                </p>
                 <div className="mt-2 flex flex-col space-y-2 w-full items-center ">
                     <p className="text-sm font-semibold text-yellow-600  hover:text-yellow-400 bg-gray-800 px-6 py-2 rounded-lg w-3/4 text-center hover:scale-110 transition-transform">
                         Software Engineer
@@ -50,10 +48,19 @@ export default function Sidebar() {
 
             <div className="mt-6 w-full space-y-4 text-sm text-gray-400">
                 <div className="flex items-center space-x-3">
-                    <HiOutlineMail className="text-yellow-600 text-lg" />
+                    <HiOutlineOfficeBuilding className="text-yellow-600 text-lg" />
                     <span className="text-yellow-600 text-sm hover:text-yellow-400">
-                        agarwalkanishk12345@gmail.com
+                        Harman International
                     </span>
+                </div>
+                <div className="flex items-center space-x-3">
+                    <HiOutlineMail className="text-yellow-600 text-lg" />
+                    <a
+                        href="mailto:agarwalkanishk12345@gmail.com"
+                        className="text-yellow-600 text-sm hover:text-yellow-400"
+                    >
+                        agar******@gmail.com
+                    </a>
                 </div>
                 <div className="flex items-center space-x-3">
                     <HiOutlinePhone className="text-yellow-500 text-lg" />
